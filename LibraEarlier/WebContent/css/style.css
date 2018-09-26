@@ -11738,7 +11738,7 @@ input[type="button"].btn-block {
   display: flex;
   flex-wrap: wrap;
   align-items: stretch;
-  width: 70%;
+  width: 100%;
 }
 
 .input-group > .form-control,
@@ -14351,12 +14351,12 @@ button.bg-dark:focus {
   background-color: #29323d !important;
 }
 
-.bg-white {
+.bg-white { 
   background-color: #ffffff !important;
 }
 
 .bg-transparent {
-  background-color: transparent !important;
+  background-color: #424242 !important;
 }
 
 .border {
@@ -17336,7 +17336,7 @@ input:focus {
 /* Sidebar */
 .sidebar {
   min-height: calc(100vh - 70px);
-  background: #545454;
+  background: #464646;
   font-family: "ubuntu-regular", sans-serif;
   padding: 0;
   width: 260px;
@@ -17838,6 +17838,7 @@ input:focus {
 .navbar.default-layout-navbar .navbar-menu-wrapper .search-field .input-group input {
   font-size: 0.875rem;
   padding: .5rem;
+  width: 1000px;
 }
 
 .navbar.default-layout-navbar .navbar-menu-wrapper .search-field .input-group input:-ms-input-placeholder {

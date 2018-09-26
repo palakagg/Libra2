@@ -1,7 +1,7 @@
 body {  
      background-repeat: no-repeat;
 	 background-position: 50% 50%;
-	 background-size: 100% 300%;
+	 background-size: 100% 350%;
   }   
 
 /* Bordered form */
@@ -9,10 +9,10 @@ body {
 form {
     /* border: 3px solid #f1f1f1; */
 	background: transparent;
-	width: 40%;
+	width: 30%;
 	/* margin: auto; */
 	/* margin-top: 10%; */
-	transform: translate(70%, 30%);
+	transform: translate(115%, 30%);
 }
 
 label{
@@ -34,7 +34,7 @@ input[type=text], input[type=password] {
 
 /* Set a style for all buttons */
 button {
-    background-color: #4CAF50;
+    background-color: #2f5431;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -45,7 +45,7 @@ button {
 
 /* Add a hover effect for buttons */
 button:hover {
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
 /* Extra style for the cancel button (red) */
@@ -63,7 +63,7 @@ button:hover {
 
 /* Avatar image */
 img.avatar {
-    width: 20%;
+    width: 70%;
     /* border-radius: 50%; */
 	margin-top: 1rem;
 }

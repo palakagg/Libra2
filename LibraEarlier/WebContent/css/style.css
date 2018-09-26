@@ -17537,7 +17537,7 @@ input:focus {
 }
 
 .sidebar .nav.sub-menu .nav-item .nav-link.active {
-  color: #b66dff;
+  color: #555555;
   background: transparent;
 }
 
@@ -17838,7 +17838,7 @@ input:focus {
 .navbar.default-layout-navbar .navbar-menu-wrapper .search-field .input-group input {
   font-size: 0.875rem;
   padding: .5rem;
-  width: 1000px;
+  width: 725px;
 }
 
 .navbar.default-layout-navbar .navbar-menu-wrapper .search-field .input-group input:-ms-input-placeholder {

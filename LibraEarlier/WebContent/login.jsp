@@ -6,7 +6,7 @@
 <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Login | Libra Application</title>
+   <title>Login | Libra Application</title>
   <!-- plugins:css -->
   <link rel="stylesheet" href="vendors/iconfonts/mdi/css/materialdesignicons.min.css">
   <link rel="stylesheet" href="vendors/css/vendor.bundle.base.css">
@@ -21,14 +21,14 @@
 
 <form action="index.jsp" method="POST">
   <div class="imgcontainer">
-    <img src="images/Libra-logo-white.png" alt="Avatar" class="avatar">
+	<img src="images/Libra-logo-white.png" alt="Avatar" class="avatar">
   </div>
 
   <div class="container">
     <!-- <label for="uname"><b>Username</b></label> -->
     <input type="text" placeholder="Username" name="uname" required>
 
-    <!-- <label for="psw"><b>Password</b></label> -->
+    <label for="psw"><b>Password</b></label>
     <input type="password" placeholder="Password" name="psw" required>
 
     <button type="submit">Login</button>

@@ -22,12 +22,12 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row"> <!--change logo-->
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo" href="index.jsp"><img src="images/logo_libra.png" alt="logo"/></a>
+        <a class="navbar-brand brand-logo" href="index.jsp"><img src="images/Libra-logo-white.png" alt="logo"/></a>
         <!-- <a class="navbar-brand brand-logo-mini" href="index.jsp"><img src="images/logo-mini.svg" alt="logo"/></a> -->
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-stretch">
         <div class="search-field d-none d-md-block">
-          <form class="d-flex align-items-center h-100" action="#">
+          <form class="d-flex align-items-center h-100" action="index.jsp">
             <div class="input-group">
               <div class="input-group-prepend bg-transparent">
                   <i class="input-group-text border-0 mdi mdi-magnify"></i>                
@@ -141,22 +141,22 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Citibank</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">JP Morgan</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Goldman Sachs</a></li>
-                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Deutsche Bank</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ClearingMember.jsp">Citibank</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ClearingMember.jsp">JP Morgan</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ClearingMember.jsp">Goldman Sachs</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ClearingMember.jsp">Deutsche Bank</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/icons/Securities.jsp">
+            <a class="nav-link" href="Securities.jsp">
               <span class="menu-title">Securities</span>
               <i class="mdi mdi-book-multiple menu-icon"></i>
             </a>
           </li>
-
-<!--           <li class="nav-item">
-            <a class="nav-link" href="pages/tables/basic-table.html">
+<!-- 
+          <li class="nav-item">
+            <a class="nav-link" href="basic-table.html">
               <span class="menu-title">Tables</span>
               <i class="mdi mdi-table-large menu-icon"></i>
             </a>
@@ -177,7 +177,17 @@
  
           </div>
           <div class="row">
-
+		<table border="1" bgcolor="white" >
+			<tr>
+			<td>1</td>
+			<td>Apple</td>
+			<td>22,000</td>
+			<td>101.98</td>
+			<td>Goldman Sachs</td>
+			<td>JP</td>
+		</tr>
+		</table>
+		  
           </div>
 
           <div class="row">

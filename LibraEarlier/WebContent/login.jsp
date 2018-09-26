@@ -16,7 +16,7 @@
   <!-- endinject -->
   <!--<link rel="shortcut icon" href="images/favicon.png" /> -->
 </head>
-<bodybackground="./images/big-background-1-5-blur.jpg">
+<body background="./images/big-background-1-5-blur.jpg">
 <div class="background">
 
 <form action="index.jsp" method="POST">

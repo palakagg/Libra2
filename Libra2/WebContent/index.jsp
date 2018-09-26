@@ -22,8 +22,6 @@
     <!-- partial:partials/_navbar.html -->
     <nav class="navbar default-layout-navbar col-lg-12 col-12 p-0 fixed-top d-flex flex-row"> <!--change logo-->
       <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
-        <a class="navbar-brand brand-logo" href="index.html"><img src="images/Libra-logo-white.png" alt="logo"/></a>
-        <!-- <a class="navbar-brand brand-logo-mini" href="index.html"><img src="images/logo-mini.svg" alt="logo"/></a> -->
       </div>
       <div class="navbar-menu-wrapper d-flex align-items-stretch">
         <div class="search-field d-none d-md-block">
@@ -128,6 +126,7 @@
             </a>
           </li>
           <li class="nav-item"> 
+            <a class="nav-link" href="index.jsp">
               <span class="menu-title">Dashboard</span>
               <i class="mdi mdi-home menu-icon"></i>
             </a>
@@ -140,20 +139,27 @@
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Citibank</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">JP Morgan</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Goldman Sachs</a></li>
+                <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Deutsche Bank</a></li>
               </ul>
             </div>
           </li>
           <li class="nav-item">
+            <a class="nav-link" href="./pages/icons/mdi.html">
               <span class="menu-title">Securities</span>
               <i class="mdi mdi-book-multiple menu-icon"></i>
             </a>
           </li>
+
           <li class="nav-item">
             <a class="nav-link" href="pages/tables/basic-table.html">
               <span class="menu-title">Tables</span>
               <i class="mdi mdi-table-large menu-icon"></i>
             </a>
           </li>
+         
         </ul>
       </nav>
       <!-- partial -->

@@ -10,9 +10,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>Purple Admin</title>
   <!-- plugins:css -->
-  <link rel="stylesheet" href="../../vendors/iconfonts/mdi/css/materialdesignicons.min.css">
-  <link rel="stylesheet" href="../../vendors/css/vendor.bundle.base.css">
-  <!-- endinject -->
+  <link rel="stylesheet" href="../vendors/iconfonts/mdi/css/materialdesignicons.min.css">
+  <link rel="stylesheet" href="../vendors/css/vendor.bundle.base.css">
+    <!-- endinject -->
   <!-- inject:css -->
   <link rel="stylesheet" href="../css/style.css">
   <!-- endinject -->
@@ -34,20 +34,20 @@
               <div class="input-group-prepend bg-transparent">
                   <i class="input-group-text border-0 mdi mdi-magnify"></i>                
               </div>
-              <input type="text" class="form-control bg-transparent border-0" placeholder="Search projects">
+              <input type="text" class="form-control bg-transparent border-0" placeholder="Search">
             </div>
           </form>
         </div>
         <ul class="navbar-nav navbar-nav-right">
           <li class="nav-item nav-profile dropdown">
-            <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
-              <div class="nav-profile-img">
+           <!--  <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+ -->             <!--  <div class="nav-profile-img">
                 <img src="../../images/faces/face1.jpg" alt="image">
                 <span class="availability-status online"></span>             
-              </div>
-              <div class="nav-profile-text">
+              </div> -->
+             <!--  <div class="nav-profile-text">
                 <p class="mb-1 text-black">David Greymaax</p>
-              </div>
+              </div> -->
             </a>
             <div class="dropdown-menu navbar-dropdown" aria-labelledby="profileDropdown">
               <a class="dropdown-item" href="#">
@@ -66,7 +66,7 @@
               <i class="mdi mdi-fullscreen" id="fullscreen-button"></i>
             </a>
           </li>
-          <li class="nav-item dropdown">
+          <!-- <li class="nav-item dropdown">
             <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
               <i class="mdi mdi-email-outline"></i>
               <span class="count-symbol bg-warning"></span>
@@ -165,7 +165,7 @@
               <div class="dropdown-divider"></div>
               <h6 class="p-3 mb-0 text-center">See all notifications</h6>
             </div>
-          </li>
+          </li> -->
           <li class="nav-item nav-logout d-none d-lg-block">
             <a class="nav-link" href="#">
               <i class="mdi mdi-power"></i>
@@ -190,60 +190,66 @@
           <li class="nav-item nav-profile">
             <a href="#" class="nav-link">
               <div class="nav-profile-image">
-                <img src="../../images/faces/face1.jpg" alt="profile">
+                <img src="../images/Employee.png" alt="profile">
                 <span class="login-status online"></span> <!--change to offline or busy as needed-->              
               </div>
               <div class="nav-profile-text d-flex flex-column">
-                <span class="font-weight-bold mb-2">David Grey. H</span>
-                <span class="text-secondary text-small">Project Manager</span>
+                <span class="font-weight-bold mb-2">Chirag Tank</span>
+               <!--  <span class="text-secondary text-small">Project Manager</span> -->
               </div>
               <i class="mdi mdi-bookmark-check text-success nav-profile-badge"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../../index.html">
+            <a class="nav-link" href="../../index.jsp">
               <span class="menu-title">Dashboard</span>
               <i class="mdi mdi-home menu-icon"></i>
             </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#ui-basic" aria-expanded="false" aria-controls="ui-basic">
-              <span class="menu-title">UI Elements</span>
+              <span class="menu-title">Clearing Member</span>
               <i class="menu-arrow"></i>
-              <i class="mdi mdi-crosshairs-gps menu-icon"></i>
+              <i class="mdi mdi-account-multiple"></i>
             </a>
             <div class="collapse" id="ui-basic">
               <ul class="nav flex-column sub-menu">
-                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/buttons.html">Buttons</a></li>
-                <li class="nav-item"> <a class="nav-link" href="../../pages/ui-features/typography.html">Typography</a></li>
-              </ul>
+                <li class="nav-item"> <a class="nav-link" href="ui-features/buttons.html">Citibank</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ui-features/buttons.html">JP Morgan</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ui-features/buttons.html">Goldman  Sachs</a></li>
+                <li class="nav-item"> <a class="nav-link" href="ui-features/typography.html">Deutsch Bank</a></li>
+                </ul>
             </div>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../../pages/icons/mdi.html">
-              <span class="menu-title">Icons</span>
+              <span class="menu-title">Securities</span>
               <i class="mdi mdi-contacts menu-icon"></i>
+              
             </a>
           </li>
-          <li class="nav-item">
+          </ul>
+          </nav>
+          
+          <!-- <li class="nav-item">
             <a class="nav-link" href="../../pages/forms/basic_elements.html">
               <span class="menu-title">Forms</span>
               <i class="mdi mdi-format-list-bulleted menu-icon"></i>
             </a>
-          </li>
-          <li class="nav-item">
+          </li> -->
+         <!--  <li class="nav-item">
             <a class="nav-link" href="../../pages/charts/chartjs.html">
               <span class="menu-title">Charts</span>
               <i class="mdi mdi-chart-bar menu-icon"></i>
             </a>
-          </li>
-          <li class="nav-item">
+          </li> -->
+          <!-- <li class="nav-item">
             <a class="nav-link" href="../../pages/tables/basic-table.html">
               <span class="menu-title">Tables</span>
               <i class="mdi mdi-table-large menu-icon"></i>
             </a>
-          </li>
-          <li class="nav-item">
+          </li> -->
+          <!-- <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#general-pages" aria-expanded="false" aria-controls="general-pages">
               <span class="menu-title">Sample Pages</span>
               <i class="menu-arrow"></i>
@@ -276,23 +282,80 @@
               </div>
             </span>
           </li>
-        </ul>
-      </nav>
+        </ul>--->
+     
       <!-- partial -->
       <div class="main-panel">          
-        <div class="content-wrapper">
+         <div class="content-wrapper">
           <div class="page-header">
             <h3 class="page-title">
-              Buttons
+              CITIBANK
             </h3>
-            <nav aria-label="breadcrumb">
+          <br>
+          </div>
+          <div class="table1">
+           <!--  <h1><span class="blue">&lt;</span>Table<span class="blue">&gt;</span> <span class="yellow">Responsive</pan></h1> -->
+<!-- <h2>Created with love by <a href="http://pablogarciafernandez.com" target="_blank">Pablo García Fernández</a></h2>
+ -->
+<table class="container">
+	<thead>
+		<tr>
+			<th><h1>Sites</h1></th>
+			<th><h1>Views</h1></th>
+			<th><h1>Clicks</h1></th>
+			<th><h1>Average</h1></th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>Google</td>
+			<td>9518</td>
+			<td>6369</td>
+			<td>01:32:50</td>
+		</tr>
+		<tr>
+			<td>Twitter</td>
+			<td>7326</td>
+			<td>10437</td>
+			<td>00:51:22</td>
+		</tr>
+		<tr>
+			<td>Amazon</td>
+			<td>4162</td>
+			<td>5327</td>
+			<td>00:24:34</td>
+		</tr>
+    <tr>
+			<td>LinkedIn</td>
+			<td>3654</td>
+			<td>2961</td>
+			<td>00:12:10</td>
+		</tr>
+    <tr>
+			<td>CodePen</td>
+			<td>2002</td>
+			<td>4135</td>
+			<td>00:46:19</td>
+		</tr>
+    <tr>
+			<td>GitHub</td>
+			<td>4623</td>
+			<td>3486</td>
+			<td>00:31:52</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+           <!--  <nav aria-label="breadcrumb">
               <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="#">UI Elements</a></li>
                 <li class="breadcrumb-item active" aria-current="page">Buttons</li>
               </ol>
-            </nav>
+            </nav> -->
           </div>
-          <div class="row">
+          </div>
+          </div>
+          <!-- <div class="row">
             <div class="col-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
@@ -703,8 +766,8 @@
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="col-md-6 grid-margin stretch-card">
+            </div> -->
+           <!--  <div class="col-md-6 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
                   <h4 class="card-title">Social button with text</h4>
@@ -719,7 +782,7 @@
                   </div>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
         <!-- content-wrapper ends -->
